@@ -1,14 +1,23 @@
 {
   "name": "sinkssyys",
   "version": "1.0.0",
+  "description": "Creating a Interface for Sink R Us Management tool",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "tailwindcss": "^3.4.13"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kyrenieee/sinkssyys/blob/main/dist/Index.html"
+  },
+  "keywords": [
+    "Sinks",
+    "R",
+    "Us",
+    "HR",
+    "System",
+    "Design"
+  ],
+  "author": "Estocapio, Kyrene Camilla and Villanueva, Aldwin Rich Rivera",
+  "license": "ISC"
 }
