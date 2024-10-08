@@ -562,6 +562,7 @@ video {
   display: table;
 }
 
+<<<<<<< HEAD
 .h-10 {
   height: 2.5rem;
 }
@@ -615,4 +616,9 @@ video {
 
 .ring-offset-sky-100 {
   --tw-ring-offset-color: #e0f2fe;
+=======
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+>>>>>>> dev-Villanueva
 }
