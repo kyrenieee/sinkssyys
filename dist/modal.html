@@ -8,38 +8,8 @@
     <link rel="stylesheet" href="../src/output.css">
 </head>
 <body>
-   <!-- Modals -->
-<div id="IvanModal" class="modal">
-    <div class="modal-content">
-      <span class="close" data-modal="IvanModal">&times;</span>
-      <p>Ivan's Content</p>
-    </div>
-  </div>
-  
-<div id="PedroModal" class="modal">
-    <div class="modal-content">
-      <span class="close" data-modal="PedroModal">&times;</span>
-      <p>Pedro's Content</p>
-    </div>
-  </div>
-
-<div id="AnaModal" class="modal">
-    <div class="modal-content">
-      <span class="close" data-modal="AnaModal">&times;</span>
-      <p>ana's Content</p>
-    </div>
-  </div>
-
-<div id="JohnModal" class="modal">
-    <div class="modal-content">
-      <span class="close" data-modal="JohnModal">&times;</span>
-      <p>John's Content</p>
-    </div>
-  </div>
-
-<div id="EmmaModal" class="modal">
-    <div class="modal-content">
-      <span class="close" data-modal="EmmaModal">&times;</span>
+    <!-- id same as data modal from button -->
+<div id="IvanModal" class="hidden items-center z-[1] left-0 top-0 w-screen h-screen overflow-auto flex-col justify-center rounded-2xl bg-[#ffffff] shadow-xl ">
       <div class="flex flex-col rounded-2xl w-72 bg-[#ffffff] shadow-xl">
         <div class="flex flex-col p-8">
             <div class="text-3xl font-bold   text-[#000000] pb-6">Name</div>
@@ -54,15 +24,14 @@
                         <li>Marital Status=</li>
                     </ul>
                 </div>
-                <div class="flex justify-end pt-6">
-                    <button class="closes bg-[#b9e774] text-[#ffffff] w-full  text-base  p-3 rounded-lg hover:bg-emerald-300 active:scale-95 transition-transform transform">continue</button>
-                </div>
+            <div class="flex justify-end pt-6">
+                <span class="close" data-modal="IvanModal"><button class="close bg-[#b9e774] text-[#ffffff] w-full text-base  p-3 rounded-lg hover:bg-emerald-300 active:scale-95 transition-transform transform">continue</button></span>
             </div>
         </div>
     </div>
   </div>
-  
-  <!-- Buttons -->
+ 
+  <!-- Buttons with data modal -->
   <button data-modal="IvanModal">Details</button>
   <button data-modal="PedroModal">Details</button>
   <button data-modal="AnaModal">Details</button>
@@ -70,8 +39,6 @@
   <button data-modal="EmmaModal">Details</button>
   
   <!-- Add more buttons as needed -->
-  
-    
     <script src="script.js"></script>
 </body>
 </html>

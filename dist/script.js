@@ -1,6 +1,6 @@
 function openModal(modalId) {
     var modal = document.getElementById(modalId);
-    modal.style.display = "block";
+    modal.style.display = "flex";
   }
   
   // Function to close a specific modal
