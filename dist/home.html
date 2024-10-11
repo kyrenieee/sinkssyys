@@ -5,46 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sink R Us/Home</title>
     <link href="homestyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="../src/output.css">
 </head>
-<body id="mainbackground">
-    <div class="relative overflow-hidden rounded-lg shadow-md">
-      <table class="w-full text-left table-auto">
-          <thead class=" bg-[#86AB89] text-[#ffffff]" style="background-color: #86AB89; color: #ffffff;">
-              <tr>
-                  <td class="p-4 py-3 font-bold text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">Name</td>
-                  <td class="p-4 py-3 font-bold text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">Job title</td>
-              </tr>
+<body>
+  <section class="blur-sm backdrop-blur-none bg-fixed w-screen h-screen" style="background-image: url(../images/loginbg.jpg); background-size: cover;">
+    <nav>
+      <div>
+      </div>
+      <div>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      </div>
+    </nav>
+
+  </section>
+
+<!--
+  <section class="h-screen w-screen ">
+    <section>
+      <nav>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </nav>
+    </section>
+    <section>
+      <div class="relative overflow-hidden rounded-lg shadow-md">
+        <table class="w-full text-left table-auto">
+          <thead >
+            <tr>
+              <td class="p-4 py-3 font-bold text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">Name</td>
+              <td class="p-4 py-3 font-bold text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">Job title</td>
+            </tr>
           </thead>
           <tbody class="bg-white text-gray-500 bg-[#FFFFFF] text-[#6b7280]" style="background-color: #FFFFFF; color: #6b7280;">
-              <tr class="py-4">
-                  <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">Ivan Petrov
-                      <br>
-                  </td>
-                  <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">Software Engineer</td>
-              </tr>
-              <tr class="py-4">
-                  <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">Pedro Los Baños</td>
-                  <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">Marketing Manager</td>
-              </tr>
-              <tr class="py-4">
-                  <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">Ana Gómez</td>
-                  <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">HR Specialist</td>
-              </tr>
-              <tr class="py-4">
-                  <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">John Wu</td>
-                  <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">Sales Associate</td>
-              </tr>
-              <tr class="py-4">
-                  <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">Emma Wilson
-                      <br>
-                  </td>
-                  <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">CEO</td>
-              </tr>
-          </tbody>
-      </table>
-  </div>
+            <tr class="py-4">
+              <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">Ivan Petrov</td>
+              <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">Software Engineer</td>
+              <td><button></button></td>
+            </tr>
+            <tr class="py-4">
+              <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">Pedro Los Baños</td>
+              <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">Marketing Manager</td>
+            </tr>
+            <tr class="py-4">
+                      <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">Ana Gómez</td>
+                      <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">HR Specialist</td>
+                    </tr>
+                    <tr class="py-4">
+                      <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">John Wu</td>
+                      <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">Sales Associate</td>
+                    </tr>
+                    <tr class="py-4">
+                      <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">Emma Wilson
+                        <br>
+                      </td>
+                      <td class="p-4 py-4 text-center border" contenteditable="false" data-gramm="false" wt-ignore-input="true">CEO</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+      </section>
+  </section>
+          
 
-  <!--<button id="modal_open">Employee Details</button>
+  <button id="modal_open">Employee Details</button>
   <section>
 
   <div class="modal_container" id="modal_container">
@@ -116,7 +147,5 @@
       <button id="modal_close">Exit</button>
     </div>
   </div>-->
-    
-  </section> 
 </body>
 </html>
