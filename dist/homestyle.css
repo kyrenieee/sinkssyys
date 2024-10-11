@@ -1,16 +1,6 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
-body {
-  min-height: 100vh;
-  background: url(loginbg.jpg) center / cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#Home_Background {
+  background-image: url(../images/loginbg.jpg);
+  background-size: cover;
 }
 
 main.table {
