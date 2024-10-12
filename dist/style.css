@@ -80,9 +80,9 @@ footer{
 
 .SocialIcons a{
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     background-color: none;
-    margin: 10px;
+    margin: 5px;
     border-radius: 50%;
 }
 
@@ -103,7 +103,7 @@ footer{
 }
 
 .FooterNav {
-    margin: 30px 0;
+    margin: 10px 0;
 }
 
 .FooterNav ul {
