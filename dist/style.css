@@ -3,6 +3,8 @@
     background-color: rgb(159, 157, 157);
     background-size: cover;
 }
+
+
 /* The Modal (background) */
 /*.{
     box-sizing: border-box;
@@ -55,3 +57,92 @@ button {
     opacity: 0.7;
     font-size: 10px;
 }*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #65816D;
+}
+
+.FooterComtainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+} 
+
+.SocialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.SocialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: none;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.SocialIcons a i{
+    font-size: 2em;
+    color: white;
+    opacity: 0.9;
+}
+
+.SocialIcons a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
+.SocialIcons a:hover i{
+    background-color: black;
+    transition: 0.5s;
+}
+
+.FooterNav {
+    margin: 30px 0;
+}
+
+.FooterNav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.FooterNav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.FooterNav ul li a:hover {
+    opacity: 1;
+}
+
+.FooterBottom{
+    background-color: #7D9B76;
+    padding: 20px;
+    text-align: center;
+}
+
+.FooterBottom p{
+    color: white;
+}
+
+@media (max-width: 700px){
+    .FooterNav ul {
+        flex-direction: column;
+    }
+
+    .FooterNav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
